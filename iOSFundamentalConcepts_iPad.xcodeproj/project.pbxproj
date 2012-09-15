@@ -14,14 +14,40 @@
 		68030A9C15CD8471007249E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030A9B15CD8471007249E5 /* main.m */; };
 		68030AA015CD8471007249E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030A9F15CD8471007249E5 /* AppDelegate.m */; };
 		68030AA315CD8471007249E5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AA215CD8471007249E5 /* MasterViewController.m */; };
-		68030AA615CD8471007249E5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AA515CD8471007249E5 /* DetailViewController.m */; };
-		68030AA915CD8471007249E5 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AA715CD8471007249E5 /* MasterViewController.xib */; };
-		68030AAC15CD8471007249E5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AAA15CD8471007249E5 /* DetailViewController.xib */; };
 		68030AB415CD8471007249E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68030AB315CD8471007249E5 /* SenTestingKit.framework */; };
 		68030AB515CD8471007249E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68030A8F15CD8471007249E5 /* UIKit.framework */; };
 		68030AB615CD8471007249E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68030A9115CD8471007249E5 /* Foundation.framework */; };
 		68030ABE15CD8471007249E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68030ABC15CD8471007249E5 /* InfoPlist.strings */; };
 		68030AC115CD8471007249E5 /* iOSFundamentalConcepts_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AC015CD8471007249E5 /* iOSFundamentalConcepts_iPadTests.m */; };
+		68030AD715CD894A007249E5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AD615CD894A007249E5 /* MainWindow.xib */; };
+		68030ADF15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030ADD15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.m */; };
+		68030AE015CD92CC007249E5 /* ProtocolsAndDelegatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030ADE15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.xib */; };
+		68030AE415CD92DA007249E5 /* PolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AE215CD92DA007249E5 /* PolymorphismViewController.m */; };
+		68030AE515CD92DA007249E5 /* PolymorphismViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AE315CD92DA007249E5 /* PolymorphismViewController.xib */; };
+		68030AE915CD92EA007249E5 /* NotificationCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AE715CD92EA007249E5 /* NotificationCenterViewController.m */; };
+		68030AEA15CD92EA007249E5 /* NotificationCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AE815CD92EA007249E5 /* NotificationCenterViewController.xib */; };
+		68030AEE15CD92F9007249E5 /* TargetSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AEC15CD92F9007249E5 /* TargetSelectionViewController.m */; };
+		68030AEF15CD92F9007249E5 /* TargetSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AED15CD92F9007249E5 /* TargetSelectionViewController.xib */; };
+		68030AF315CD930B007249E5 /* ProtectedPublicPrivateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AF115CD930B007249E5 /* ProtectedPublicPrivateViewController.m */; };
+		68030AF415CD930B007249E5 /* ProtectedPublicPrivateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AF215CD930B007249E5 /* ProtectedPublicPrivateViewController.xib */; };
+		68030AF815CD932B007249E5 /* SingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AF615CD932B007249E5 /* SingletonViewController.m */; };
+		68030AF915CD932B007249E5 /* SingletonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AF715CD932B007249E5 /* SingletonViewController.xib */; };
+		68030AFE15CD936F007249E5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030AFC15CD936F007249E5 /* DetailViewController.m */; };
+		68030AFF15CD936F007249E5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030AFD15CD936F007249E5 /* DetailViewController.xib */; };
+		68030B1015CDA718007249E5 /* NavigationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030B0E15CDA718007249E5 /* NavigationDetailViewController.m */; };
+		68030B1115CDA718007249E5 /* NavigationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030B0F15CDA718007249E5 /* NavigationDetailViewController.xib */; };
+		68030B1515CDABAB007249E5 /* ProtocolAndDelegatesViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 68030B1315CDABAB007249E5 /* ProtocolAndDelegatesViewController2.m */; };
+		68030B1615CDABAB007249E5 /* ProtocolAndDelegatesViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68030B1415CDABAB007249E5 /* ProtocolAndDelegatesViewController2.xib */; };
+		680AD00115D3650800CC2B6F /* IntegerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 680AD00015D3650800CC2B6F /* IntegerClass.m */; };
+		6821FAB615D0B37A006663C8 /* DataStructuresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821FAB415D0B37A006663C8 /* DataStructuresViewController.m */; };
+		6821FAB715D0B37A006663C8 /* DataStructuresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6821FAB515D0B37A006663C8 /* DataStructuresViewController.xib */; };
+		68452BC015CEF2A900C29A05 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 68452BBF15CEF2A900C29A05 /* ClassA.m */; };
+		68452BC415CEF2C200C29A05 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 68452BC315CEF2C200C29A05 /* ClassB.m */; };
+		68452BC715CEF32700C29A05 /* CurrencyConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 68452BC615CEF32700C29A05 /* CurrencyConvert.m */; };
+		68452BCA15CEF33700C29A05 /* UnitConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 68452BC915CEF33700C29A05 /* UnitConvert.m */; };
+		688F06BE15CE06E200F029D9 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 688F06BD15CE06E200F029D9 /* MySingleton.m */; };
+		688F06C415CE122200F029D9 /* MultithreadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 688F06C215CE122200F029D9 /* MultithreadingViewController.m */; };
+		688F06C515CE122200F029D9 /* MultithreadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688F06C315CE122200F029D9 /* MultithreadingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,24 +65,66 @@
 		68030A8F15CD8471007249E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68030A9115CD8471007249E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68030A9315CD8471007249E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		68030A9715CD8471007249E5 /* iOSFundamentalConcepts_iPad-Info.plist */ = {isa = PBXFileReference; path = "iOSFundamentalConcepts_iPad-Info.plist"; sourceTree = "<group>"; };
+		68030A9715CD8471007249E5 /* iOSFundamentalConcepts_iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSFundamentalConcepts_iPad-Info.plist"; sourceTree = "<group>"; };
 		68030A9915CD8471007249E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68030A9B15CD8471007249E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68030A9D15CD8471007249E5 /* iOSFundamentalConcepts_iPad-Prefix.pch */ = {isa = PBXFileReference; path = "iOSFundamentalConcepts_iPad-Prefix.pch"; sourceTree = "<group>"; };
-		68030A9E15CD8471007249E5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		68030A9D15CD8471007249E5 /* iOSFundamentalConcepts_iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSFundamentalConcepts_iPad-Prefix.pch"; sourceTree = "<group>"; };
+		68030A9E15CD8471007249E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68030A9F15CD8471007249E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68030AA115CD8471007249E5 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		68030AA115CD8471007249E5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		68030AA215CD8471007249E5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		68030AA415CD8471007249E5 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		68030AA515CD8471007249E5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		68030AA815CD8471007249E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
-		68030AAB15CD8471007249E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
 		68030AB215CD8471007249E5 /* iOSFundamentalConcepts_iPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFundamentalConcepts_iPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68030AB315CD8471007249E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		68030ABB15CD8471007249E5 /* iOSFundamentalConcepts_iPadTests-Info.plist */ = {isa = PBXFileReference; path = "iOSFundamentalConcepts_iPadTests-Info.plist"; sourceTree = "<group>"; };
+		68030ABB15CD8471007249E5 /* iOSFundamentalConcepts_iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSFundamentalConcepts_iPadTests-Info.plist"; sourceTree = "<group>"; };
 		68030ABD15CD8471007249E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		68030ABF15CD8471007249E5 /* iOSFundamentalConcepts_iPadTests.h */ = {isa = PBXFileReference; path = iOSFundamentalConcepts_iPadTests.h; sourceTree = "<group>"; };
+		68030ABF15CD8471007249E5 /* iOSFundamentalConcepts_iPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSFundamentalConcepts_iPadTests.h; sourceTree = "<group>"; };
 		68030AC015CD8471007249E5 /* iOSFundamentalConcepts_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFundamentalConcepts_iPadTests.m; sourceTree = "<group>"; };
+		68030AD615CD894A007249E5 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		68030ADC15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolsAndDelegatesViewController.h; sourceTree = "<group>"; };
+		68030ADD15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolsAndDelegatesViewController.m; sourceTree = "<group>"; };
+		68030ADE15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtocolsAndDelegatesViewController.xib; sourceTree = "<group>"; };
+		68030AE115CD92DA007249E5 /* PolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolymorphismViewController.h; sourceTree = "<group>"; };
+		68030AE215CD92DA007249E5 /* PolymorphismViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolymorphismViewController.m; sourceTree = "<group>"; };
+		68030AE315CD92DA007249E5 /* PolymorphismViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PolymorphismViewController.xib; sourceTree = "<group>"; };
+		68030AE615CD92EA007249E5 /* NotificationCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterViewController.h; sourceTree = "<group>"; };
+		68030AE715CD92EA007249E5 /* NotificationCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterViewController.m; sourceTree = "<group>"; };
+		68030AE815CD92EA007249E5 /* NotificationCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationCenterViewController.xib; sourceTree = "<group>"; };
+		68030AEB15CD92F9007249E5 /* TargetSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetSelectionViewController.h; sourceTree = "<group>"; };
+		68030AEC15CD92F9007249E5 /* TargetSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetSelectionViewController.m; sourceTree = "<group>"; };
+		68030AED15CD92F9007249E5 /* TargetSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TargetSelectionViewController.xib; sourceTree = "<group>"; };
+		68030AF015CD930B007249E5 /* ProtectedPublicPrivateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtectedPublicPrivateViewController.h; sourceTree = "<group>"; };
+		68030AF115CD930B007249E5 /* ProtectedPublicPrivateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtectedPublicPrivateViewController.m; sourceTree = "<group>"; };
+		68030AF215CD930B007249E5 /* ProtectedPublicPrivateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtectedPublicPrivateViewController.xib; sourceTree = "<group>"; };
+		68030AF515CD932B007249E5 /* SingletonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonViewController.h; sourceTree = "<group>"; };
+		68030AF615CD932B007249E5 /* SingletonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonViewController.m; sourceTree = "<group>"; };
+		68030AF715CD932B007249E5 /* SingletonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingletonViewController.xib; sourceTree = "<group>"; };
+		68030AFB15CD936F007249E5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		68030AFC15CD936F007249E5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		68030AFD15CD936F007249E5 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		68030B0D15CDA718007249E5 /* NavigationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationDetailViewController.h; sourceTree = "<group>"; };
+		68030B0E15CDA718007249E5 /* NavigationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationDetailViewController.m; sourceTree = "<group>"; };
+		68030B0F15CDA718007249E5 /* NavigationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationDetailViewController.xib; sourceTree = "<group>"; };
+		68030B1215CDABAB007249E5 /* ProtocolAndDelegatesViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolAndDelegatesViewController2.h; sourceTree = "<group>"; };
+		68030B1315CDABAB007249E5 /* ProtocolAndDelegatesViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolAndDelegatesViewController2.m; sourceTree = "<group>"; };
+		68030B1415CDABAB007249E5 /* ProtocolAndDelegatesViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtocolAndDelegatesViewController2.xib; sourceTree = "<group>"; };
+		680ACFFF15D3650800CC2B6F /* IntegerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerClass.h; sourceTree = "<group>"; };
+		680AD00015D3650800CC2B6F /* IntegerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerClass.m; sourceTree = "<group>"; };
+		6821FAB315D0B37A006663C8 /* DataStructuresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructuresViewController.h; sourceTree = "<group>"; };
+		6821FAB415D0B37A006663C8 /* DataStructuresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStructuresViewController.m; sourceTree = "<group>"; };
+		6821FAB515D0B37A006663C8 /* DataStructuresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataStructuresViewController.xib; sourceTree = "<group>"; };
+		68452BBE15CEF2A900C29A05 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		68452BBF15CEF2A900C29A05 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		68452BC215CEF2C200C29A05 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		68452BC315CEF2C200C29A05 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		68452BC515CEF32700C29A05 /* CurrencyConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConvert.h; sourceTree = "<group>"; };
+		68452BC615CEF32700C29A05 /* CurrencyConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConvert.m; sourceTree = "<group>"; };
+		68452BC815CEF33700C29A05 /* UnitConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitConvert.h; sourceTree = "<group>"; };
+		68452BC915CEF33700C29A05 /* UnitConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitConvert.m; sourceTree = "<group>"; };
+		688F06BC15CE06E200F029D9 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		688F06BD15CE06E200F029D9 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+		688F06C115CE122200F029D9 /* MultithreadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultithreadingViewController.h; sourceTree = "<group>"; };
+		688F06C215CE122200F029D9 /* MultithreadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultithreadingViewController.m; sourceTree = "<group>"; };
+		688F06C315CE122200F029D9 /* MultithreadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultithreadingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +154,7 @@
 		68030A8015CD8471007249E5 = {
 			isa = PBXGroup;
 			children = (
+				68030AFA15CD9332007249E5 /* Examples */,
 				68030A9515CD8471007249E5 /* iOSFundamentalConcepts_iPad */,
 				68030AB915CD8471007249E5 /* iOSFundamentalConcepts_iPadTests */,
 				68030A8E15CD8471007249E5 /* Frameworks */,
@@ -120,10 +189,7 @@
 				68030A9F15CD8471007249E5 /* AppDelegate.m */,
 				68030AA115CD8471007249E5 /* MasterViewController.h */,
 				68030AA215CD8471007249E5 /* MasterViewController.m */,
-				68030AA415CD8471007249E5 /* DetailViewController.h */,
-				68030AA515CD8471007249E5 /* DetailViewController.m */,
-				68030AA715CD8471007249E5 /* MasterViewController.xib */,
-				68030AAA15CD8471007249E5 /* DetailViewController.xib */,
+				68030AD615CD894A007249E5 /* MainWindow.xib */,
 				68030A9615CD8471007249E5 /* Supporting Files */,
 			);
 			path = iOSFundamentalConcepts_iPad;
@@ -157,6 +223,138 @@
 				68030ABC15CD8471007249E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68030AFA15CD9332007249E5 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				68030B0715CD9F53007249E5 /* TestControllers */,
+				68030B0015CD96D1007249E5 /* DesignPatterns */,
+			);
+			name = Examples;
+			sourceTree = "<group>";
+		};
+		68030B0015CD96D1007249E5 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				6821FAB115D0B354006663C8 /* DataStructures */,
+				688F06C015CE120A00F029D9 /* Multithreading */,
+				68030B0115CD9C5E007249E5 /* ProtocolsAndDelegates */,
+				68030B0615CD9CB6007249E5 /* Polymorphism */,
+				68030B0515CD9CA4007249E5 /* ProtectedPublicPrivate */,
+				68030B0415CD9C97007249E5 /* NotificationCenter */,
+				68030B0315CD9C89007249E5 /* TargetSelection */,
+				68030B0215CD9C80007249E5 /* Singleton */,
+			);
+			name = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		68030B0115CD9C5E007249E5 /* ProtocolsAndDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				68030ADC15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.h */,
+				68030ADD15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.m */,
+				68030ADE15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.xib */,
+				68030B1215CDABAB007249E5 /* ProtocolAndDelegatesViewController2.h */,
+				68030B1315CDABAB007249E5 /* ProtocolAndDelegatesViewController2.m */,
+				68030B1415CDABAB007249E5 /* ProtocolAndDelegatesViewController2.xib */,
+			);
+			name = ProtocolsAndDelegates;
+			sourceTree = "<group>";
+		};
+		68030B0215CD9C80007249E5 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				688F06BC15CE06E200F029D9 /* MySingleton.h */,
+				688F06BD15CE06E200F029D9 /* MySingleton.m */,
+				68030AF515CD932B007249E5 /* SingletonViewController.h */,
+				68030AF615CD932B007249E5 /* SingletonViewController.m */,
+				68030AF715CD932B007249E5 /* SingletonViewController.xib */,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		68030B0315CD9C89007249E5 /* TargetSelection */ = {
+			isa = PBXGroup;
+			children = (
+				68030AEB15CD92F9007249E5 /* TargetSelectionViewController.h */,
+				68030AEC15CD92F9007249E5 /* TargetSelectionViewController.m */,
+				68030AED15CD92F9007249E5 /* TargetSelectionViewController.xib */,
+			);
+			name = TargetSelection;
+			sourceTree = "<group>";
+		};
+		68030B0415CD9C97007249E5 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				68030AE615CD92EA007249E5 /* NotificationCenterViewController.h */,
+				68030AE715CD92EA007249E5 /* NotificationCenterViewController.m */,
+				68030AE815CD92EA007249E5 /* NotificationCenterViewController.xib */,
+			);
+			name = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		68030B0515CD9CA4007249E5 /* ProtectedPublicPrivate */ = {
+			isa = PBXGroup;
+			children = (
+				68452BBE15CEF2A900C29A05 /* ClassA.h */,
+				68452BBF15CEF2A900C29A05 /* ClassA.m */,
+				68452BC215CEF2C200C29A05 /* ClassB.h */,
+				68452BC315CEF2C200C29A05 /* ClassB.m */,
+				68030AF015CD930B007249E5 /* ProtectedPublicPrivateViewController.h */,
+				68030AF115CD930B007249E5 /* ProtectedPublicPrivateViewController.m */,
+				68030AF215CD930B007249E5 /* ProtectedPublicPrivateViewController.xib */,
+			);
+			name = ProtectedPublicPrivate;
+			sourceTree = "<group>";
+		};
+		68030B0615CD9CB6007249E5 /* Polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				68452BC815CEF33700C29A05 /* UnitConvert.h */,
+				68452BC915CEF33700C29A05 /* UnitConvert.m */,
+				68452BC515CEF32700C29A05 /* CurrencyConvert.h */,
+				68452BC615CEF32700C29A05 /* CurrencyConvert.m */,
+				68030AE115CD92DA007249E5 /* PolymorphismViewController.h */,
+				68030AE215CD92DA007249E5 /* PolymorphismViewController.m */,
+				68030AE315CD92DA007249E5 /* PolymorphismViewController.xib */,
+			);
+			name = Polymorphism;
+			sourceTree = "<group>";
+		};
+		68030B0715CD9F53007249E5 /* TestControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68030AFB15CD936F007249E5 /* DetailViewController.h */,
+				68030AFC15CD936F007249E5 /* DetailViewController.m */,
+				68030AFD15CD936F007249E5 /* DetailViewController.xib */,
+				68030B0D15CDA718007249E5 /* NavigationDetailViewController.h */,
+				68030B0E15CDA718007249E5 /* NavigationDetailViewController.m */,
+				68030B0F15CDA718007249E5 /* NavigationDetailViewController.xib */,
+			);
+			name = TestControllers;
+			sourceTree = "<group>";
+		};
+		6821FAB115D0B354006663C8 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				680ACFFF15D3650800CC2B6F /* IntegerClass.h */,
+				680AD00015D3650800CC2B6F /* IntegerClass.m */,
+				6821FAB315D0B37A006663C8 /* DataStructuresViewController.h */,
+				6821FAB415D0B37A006663C8 /* DataStructuresViewController.m */,
+				6821FAB515D0B37A006663C8 /* DataStructuresViewController.xib */,
+			);
+			name = DataStructures;
+			sourceTree = "<group>";
+		};
+		688F06C015CE120A00F029D9 /* Multithreading */ = {
+			isa = PBXGroup;
+			children = (
+				688F06C115CE122200F029D9 /* MultithreadingViewController.h */,
+				688F06C215CE122200F029D9 /* MultithreadingViewController.m */,
+				688F06C315CE122200F029D9 /* MultithreadingViewController.xib */,
+			);
+			name = Multithreading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +428,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				68030A9A15CD8471007249E5 /* InfoPlist.strings in Resources */,
-				68030AA915CD8471007249E5 /* MasterViewController.xib in Resources */,
-				68030AAC15CD8471007249E5 /* DetailViewController.xib in Resources */,
+				68030AD715CD894A007249E5 /* MainWindow.xib in Resources */,
+				68030AE015CD92CC007249E5 /* ProtocolsAndDelegatesViewController.xib in Resources */,
+				68030AE515CD92DA007249E5 /* PolymorphismViewController.xib in Resources */,
+				68030AEA15CD92EA007249E5 /* NotificationCenterViewController.xib in Resources */,
+				68030AEF15CD92F9007249E5 /* TargetSelectionViewController.xib in Resources */,
+				68030AF415CD930B007249E5 /* ProtectedPublicPrivateViewController.xib in Resources */,
+				68030AF915CD932B007249E5 /* SingletonViewController.xib in Resources */,
+				68030AFF15CD936F007249E5 /* DetailViewController.xib in Resources */,
+				68030B1115CDA718007249E5 /* NavigationDetailViewController.xib in Resources */,
+				68030B1615CDABAB007249E5 /* ProtocolAndDelegatesViewController2.xib in Resources */,
+				688F06C515CE122200F029D9 /* MultithreadingViewController.xib in Resources */,
+				6821FAB715D0B37A006663C8 /* DataStructuresViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +477,23 @@
 				68030A9C15CD8471007249E5 /* main.m in Sources */,
 				68030AA015CD8471007249E5 /* AppDelegate.m in Sources */,
 				68030AA315CD8471007249E5 /* MasterViewController.m in Sources */,
-				68030AA615CD8471007249E5 /* DetailViewController.m in Sources */,
+				68030ADF15CD92CC007249E5 /* ProtocolsAndDelegatesViewController.m in Sources */,
+				68030AE415CD92DA007249E5 /* PolymorphismViewController.m in Sources */,
+				68030AE915CD92EA007249E5 /* NotificationCenterViewController.m in Sources */,
+				68030AEE15CD92F9007249E5 /* TargetSelectionViewController.m in Sources */,
+				68030AF315CD930B007249E5 /* ProtectedPublicPrivateViewController.m in Sources */,
+				68030AF815CD932B007249E5 /* SingletonViewController.m in Sources */,
+				68030AFE15CD936F007249E5 /* DetailViewController.m in Sources */,
+				68030B1015CDA718007249E5 /* NavigationDetailViewController.m in Sources */,
+				68030B1515CDABAB007249E5 /* ProtocolAndDelegatesViewController2.m in Sources */,
+				688F06BE15CE06E200F029D9 /* MySingleton.m in Sources */,
+				688F06C415CE122200F029D9 /* MultithreadingViewController.m in Sources */,
+				68452BC015CEF2A900C29A05 /* ClassA.m in Sources */,
+				68452BC415CEF2C200C29A05 /* ClassB.m in Sources */,
+				68452BC715CEF32700C29A05 /* CurrencyConvert.m in Sources */,
+				68452BCA15CEF33700C29A05 /* UnitConvert.m in Sources */,
+				6821FAB615D0B37A006663C8 /* DataStructuresViewController.m in Sources */,
+				680AD00115D3650800CC2B6F /* IntegerClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,22 +522,6 @@
 				68030A9915CD8471007249E5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		68030AA715CD8471007249E5 /* MasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68030AA815CD8471007249E5 /* en */,
-			);
-			name = MasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		68030AAA15CD8471007249E5 /* DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68030AAB15CD8471007249E5 /* en */,
-			);
-			name = DetailViewController.xib;
 			sourceTree = "<group>";
 		};
 		68030ABC15CD8471007249E5 /* InfoPlist.strings */ = {
@@ -449,6 +657,7 @@
 				68030AC615CD8471007249E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68030AC715CD8471007249E5 /* Build configuration list for PBXNativeTarget "iOSFundamentalConcepts_iPadTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +666,7 @@
 				68030AC915CD8471007249E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class MasterViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : NSObject <UIApplicationDelegate>{
+    UIWindow *window;
+    UISplitViewController *splitViewController;
+}
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
 
-@property (strong, nonatomic) UISplitViewController *splitViewController;
+@property (strong, nonatomic) IBOutlet UISplitViewController *splitViewController;
 
 @end

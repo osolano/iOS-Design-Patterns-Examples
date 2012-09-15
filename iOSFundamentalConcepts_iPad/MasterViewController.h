@@ -8,10 +8,29 @@
 
 #import <UIKit/UIKit.h>
 
-@class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+/*
+ SubstitutableDetailViewController defines the protocol that detail view controllers must adopt. The protocol specifies methods to hide and show the bar button item controlling the popover.
+ 
+ */
+@protocol SubstitutableDetailViewController
+- (void)showRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
+- (void)invalidateRootPopoverButtonItem:(UIBarButtonItem *)barButtonItem;
+@end
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+
+@interface MasterViewController : UITableViewController<UISplitViewControllerDelegate>{
+    
+    UISplitViewController *splitViewController;
+
+    
+    UIPopoverController *popoverController;    
+    UIBarButtonItem *rootPopoverButtonItem;
+}
+
+@property(nonatomic, strong) IBOutlet UISplitViewController *splitViewController;
+
+@property (nonatomic, retain) UIPopoverController *popoverController;
+@property (nonatomic, retain) UIBarButtonItem *rootPopoverButtonItem;
 
 @end

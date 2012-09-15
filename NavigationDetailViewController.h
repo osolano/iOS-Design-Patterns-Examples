@@ -1,5 +1,5 @@
 //
-//  main.m
+//  NavigationDetailViewController.h
 //  iOSFundamentalConcepts_iPad
 //
 //  Created by Oliver Solano on 8/4/12.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+@interface NavigationDetailViewController : UIViewController
 
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, nil);
-    }
-}
+-(IBAction)selectCreateDetailViewControllerButton:(id)sender;
+
+@end
