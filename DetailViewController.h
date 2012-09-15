@@ -4,7 +4,7 @@
 //
 //  Created by Oliver Solano on 8/4/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+// Test Commit 3
 
 #import <UIKit/UIKit.h>
 #import "MasterViewController.h"
